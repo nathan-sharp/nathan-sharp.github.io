@@ -1,17 +1,67 @@
 <!DOCTYPE html>
-<head>
-    <title>N.J.Sharp | Home</title>
-    <style>
-        body {
-            text-align: center;
-            background-color: gray;
-            font-family: 'Courier New', Courier, monospace;
-        }
-    </style>
-</head>
 <html>
+    <head>
+        <title>N.J.Sharp | Home</title>
+        <!-- icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            body {
+                text-align: center;
+                background-color: gray;
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .fa {
+                padding: 20px;
+                font-size: 30px;
+                width: 30px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+                border-radius: 50%;
+            }
+
+            .fa:hover {
+                opacity: 0.7;
+            }
+
+            .fa-reddit {
+            background: #ff5700;
+            color: white;
+            }
+
+            .fa-twitter {
+            background: #55ACEE;
+            color: white;
+            }
+
+        </style>
+    </head>
     <body>
         <h1>N.J.Sharp</h1>
         <p>This site is currently under construction and should be up and running soon.</p>
+        <footer>
+
+            <div class="socials">
+                <a href="https://twitter.com/wuffs_nathan/" class="fa fa-twitter"></a>
+                <a href="https://www.reddit.com/user/wuffs0/" class="fa fa-reddit"></a>
+            </div>
+
+            <div class="copyright">
+                <a>©</a>
+                <span id="United_Kingdom_z716"></span>
+                <script src="//widget.time.is/en_gb.js"></script>
+                <script>
+                time_is_widget.init({United_Kingdom_z716:{template:"DATE", date_format:"year"}});
+                </script>
+                <a>N.J.Sharp</a>
+            </div>
+        
+        </footer>
     </body>
 </html>
