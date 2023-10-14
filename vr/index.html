@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>N.J.Sharp | WebVR</title>
-        <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+        <title>N.J.Sharp | vr</title>
+        <!-- icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/styles.css">
+
     </head>
     <body>
+        <header>
+            <h1>N.J.Sharp</h1>
+        </header>
+
         <main>
-            <a-scene>
-                <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-                <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-                <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-                <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-                <a-sky color="#ECECEC"></a-sky>
-              </a-scene>
+            <a href="/vr/demo/" >WebVR demo</a>
         </main>
+        
+        <footer>
+
+            <div class="socials">
+                <a href="https://twitter.com/wuffs_nathan/" class="fa fa-twitter"></a>
+                <a href="https://www.reddit.com/user/wuffs0/" class="fa fa-reddit"></a>
+            </div>
+
+            <div class="copyright">
+                <a>©</a>
+                <span id="United_Kingdom_z716"></span>
+                <script src="//widget.time.is/en_gb.js"></script>
+                <script>
+                time_is_widget.init({United_Kingdom_z716:{template:"DATE", date_format:"year"}});
+                </script>
+                <a>N.J.Sharp</a>
+            </div>
+        
+        </footer>
     </body>
 </html>
