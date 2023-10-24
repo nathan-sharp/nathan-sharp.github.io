@@ -1,3 +1,3 @@
 # N.J.Sharp
-My fantastical website.
-find it at projects.nathansharp.uk
+My fantastical website.<br>
+Have a look at it *[here](https://projects.nathansharp.uk)*
