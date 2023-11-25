@@ -1,10 +1,89 @@
 body {
+    color: lightpink;
     text-align: center;
-    background-color: gray;
+    background-color: rgb(27, 27, 27);
     font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
 }
 
-a {
+.pfp {
+    border-radius: 50%;
+}
+
+button {
+    border: none;
+    color: lightpink;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    background-color: rgb(27, 27, 27);
+    margin: 0.5%;
+    width: 50%;
+}
+
+#b1 {
+    border: 2px solid #FF0000;
+}
+
+#b1:hover {
+    background-color: #FF0000;
+    color: white;
+}
+
+#b2 {
+    border: 2px solid #1D9BF0;
+}
+
+#b2:hover {
+    background-color: #1D9BF0;
+    color: white;
+}
+
+#b3 {
+    border: 2px solid #0165E1;
+}
+
+#b3:hover {
+    background-color: #0165E1;
+    color: white;
+}
+
+#b4 {
+    border: 2px solid #6364FF;
+}
+
+#b4:hover {
+    background-color: #6364FF;
+    color: white;
+}
+
+#b5 {
+    border: 2px solid #E1306C;
+}
+
+#b5:hover {
+    background-color: #E1306C;
+    color: white;
+}
+
+#b6 {
+    border: 2px solid lightpink;
+}
+
+#b6:hover {
+    background-color: lightpink;
+    color: white;
+}
+
+#b7 {
+    border: 2px solid #1D9BF0;
+}
+
+#b7:hover {
+    background-color: #1D9BF0;
+    color: white;
 }
 
