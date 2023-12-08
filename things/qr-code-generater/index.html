@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>N.J.Sharp | Home</title>
+        <!-- icon library -->
+        <script src="https://kit.fontawesome.com/f51f9f5aee.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+        <link rel="stylesheet" href="/styles.css">
+        <style>
+            .form {
+                background-color: hsl(27, 27, 27);
+                margin: 10%;
+                border-radius: 50px;
+                border: 5px solid pink;
+            }
+
+            button {
+                border: 2px solid pink;
+                margin: 5%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <br>
+        </header>
+        <main>
+            <div class="form">
+                <h1>QR Code Generater</h1>
+                <form>
+                    <input type="url" id="website" name="website" placeholder="https://www.example.com/" required />
+                    <br>
+                    <button type="button" onclick="generateQRCode()">Generate QR Code</button>
+                </form>
+                  
+                <div id="qrcode-container">
+                    <div id="qrcode" class="qrcode"></div>
+                    <div id="qrcode-2" class="qrcode"></div>
+                </div>
+                  
+                <script type="text/javascript">
+                      function generateQRCode() {
+                        let website = document.getElementById("website").value;
+                        if (website) {
+                          let qrcodeContainer2 = document.getElementById("qrcode-2");
+                          qrcodeContainer2.innerHTML = "";
+                          new QRCode(qrcodeContainer2, website);
+                          
+                          /*With some styles*/
+                          let qrcodeContainer = document.getElementById("qrcode");
+                          qrcodeContainer.innerHTML = "";
+                          new QRCode(qrcodeContainer, {
+                            text: website,
+                            width: 128,
+                            height: 128,
+                            colorDark: "pink",
+                            colorLight: "white",
+                            correctLevel: QRCode.CorrectLevel.L
+                          });
+                          document.getElementById("qrcode-container").style.display = "block";
+                        } else {
+                          alert("Please enter a valid URL");
+                        }
+                      }
+                </script>
+              </div>
+        </main>
+        <footer>
+
+            <div class="copyright">
+                <a>©</a>
+                <span id="United_Kingdom_z716"></span>
+                <script src="https://widget.time.is/en_gb.js"></script>
+                <script>time_is_widget.init({United_Kingdom_z716:{template:"DATE", date_format:"year"}});</script>
+                <a>N.J.Sharp</a>
+            </div>
+        
+        </footer>
+    </body>
+</html>
