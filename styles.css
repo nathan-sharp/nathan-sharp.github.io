@@ -2,12 +2,27 @@ body {
     color: lightpink;
     text-align: center;
     background-color: rgb(27, 27, 27);
-    font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
+    font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .pfp {
     border-radius: 50%;
+}
+
+a {
+    color: inherit; /* colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.nav {
+    text-align: left;
+    padding: 2%;
+}
+
+.things {
+    text-align: center;
+    text-decoration: underline;
 }
 
 button {
