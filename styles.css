@@ -6,6 +6,46 @@ body {
     font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 20rem;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.heading {
+    text-align: center;
+    background: pink;
+    color: white;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+input {
+    font-family: inherit;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
 footer {
     position: fixed;
     left: 0;
@@ -50,6 +90,27 @@ button {
     background-color: rgb(27, 27, 27);
     margin: 0.5%;
     width: 50%;
+}
+
+#website {
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: gainsboro;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.generateBtn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
 }
 
 #b1 {
