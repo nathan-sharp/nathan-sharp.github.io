@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>N.J.Sharp | Time</title>
+        <link rel="icon" type="image/x-icon" href="/media/e6-logo.png">
+        <!-- icon library -->
+        <script src="https://kit.fontawesome.com/f51f9f5aee.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="/" class="fa-solid fa-house"></a>
+                <a href="/" style="font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" >N.J.Sharp</a>
+                <!-- <a href="/#">#</a>
+                <a href="/#">#</a> -->
+            </nav>
+            
+        </header>
+        <main>
+            <div >
+                <a href="https://time.is/Banchory" id="time_is_link" rel="nofollow" style="font-size:36px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Current time in UK:</a>
+                <br>
+                <span id="Banchory_z716" style="font-size:600%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"></span>
+                <script src="//widget.time.is/en_gb.js"></script>
+                <script>
+                    time_is_widget.init({
+                        Banchory_z716:{template:"TIME<br>DATE",
+                        date_format:"dayname, dnum monthname, year, week"}
+                    });
+                </script>
+
+            </div>
+        </main>
+        <footer>
+
+            <!-- left out as only one request per page :( -->
+            <!-- <div class="copyright">
+                <a>©</a>
+                <span id="United_Kingdom_z716"></span>
+                <script src="//widget.time.is/en_gb.js"></script>
+                <script>
+                    time_is_widget.init({United_Kingdom_z716:{template:"DATE", date_format:"year"}});
+                </script>
+                <a>N.J.Sharp</a>
+            </div> -->
+        
+        </footer>
+    </body>
+</html>
